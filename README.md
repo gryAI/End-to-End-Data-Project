@@ -1,4 +1,4 @@
-# This is my repo
+# End-to-End Data Project
 
 # Instructions
 - Clone this repository
