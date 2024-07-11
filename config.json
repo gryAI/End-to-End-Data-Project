@@ -1,0 +1,63 @@
+{
+    "OFAC_SDN": {
+        "URL": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/SDN.CSV",
+        "PARAMS": {
+            "names": [
+                "ent_num",
+                "sdn_Name",
+                "sdn_Type",
+                "program",
+                "title",
+                "call_Sign",
+                "vess_type",
+                "Tonnage",
+                "grt",
+                "vess_flag",
+                "vess_owner",
+                "Remarks"
+            ],
+            "na_values": "-0- ",
+            "skipfooter": 1, 
+            "engine": "python"
+
+        }
+    },
+
+    "OFAC_ADD": {
+        "URL": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ADD.CSV",
+        "PARAMS": {
+            "names": [
+                "ent_num",
+                "add_num",
+                "address",
+                "complete_address",
+                "country",
+                "add_remarks"
+            ],
+            "na_values": "-0- ",
+            "skipfooter": 1, 
+            "engine": "python"
+
+        } 
+    },
+
+    "OFAC_ALT": {
+        "URL": "https://sanctionslistservice.ofac.treas.gov/api/PublicationPreview/exports/ALT.CSV",
+        "PARAMS": {
+            "names": [
+                "ent_num",
+                "alt_num",
+                "alt_type",
+                "alt_name",
+                "alt_remarks"
+            ],
+            "na_values": "-0- ",
+            "skipfooter": 1, 
+            "engine": "python"
+
+        } 
+    }
+
+    
+
+}
