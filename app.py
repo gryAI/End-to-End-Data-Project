@@ -69,7 +69,10 @@ def pipeline():
     print(f"SCHEDULED BATCH COMPLETED! File count: {count}")
 
 
-### Invocation ###
+"""
+This script processes CSV files from specified URLs, uploads them to an FTP server,
+and manages scheduling for manual or automated execution.
+"""
 
 if __name__=="__main__":
 
