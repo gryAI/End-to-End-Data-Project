@@ -57,13 +57,10 @@ def pipeline():
         file_name = Path(source_name + ".CSV")
         df = read_csv(source_config)
         df.to_csv(file_name, index = False)
-
         print(f"{file_name} has been downloaded")
-
 
         upload_to_ftp(ftp, file_name)
         print(f"{file_name} has been uploaded to FTP Server")
-
 
         delete_file(file_name)
         print(f"{file_name} has been deleted locally")
@@ -74,12 +71,11 @@ def pipeline():
 if __name__=="__main__":
 
     param = sys.argv[1]
-
+    
     if param == 'manual':
         pipeline()
     
     elif param == 'scheduled':
-
         schedule.every().day.at("17:39").do(pipeline)
         
         while True:
