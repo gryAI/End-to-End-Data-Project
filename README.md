@@ -31,7 +31,9 @@ Step 1: Create a pipeline in SSIS to:
 
 - Merge tables <br> <br>
 ![image](https://github.com/user-attachments/assets/2a858797-2048-460d-86d9-9a9c520efc64)
-![image](https://github.com/user-attachments/assets/e552e8aa-414c-4d45-85af-269019893ec4)
+![image](https://github.com/user-attachments/assets/985fd673-af91-4267-8df7-f390ae2d36db)
+
+
 
 
 
