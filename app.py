@@ -34,8 +34,9 @@ def read_csv(config: dict) -> pd.DataFrame:
 
 
 def upload_to_ftp(ftp: FTP_TLS, file_source: str | Path):
+    target_directory = "/home/ftpuser/ftp/new"
     with open(file_source, "rb") as fp:
-        ftp.storbinary(f"STOR {file_source.name}", fp)
+        ftp.storbinary(f"STOR {target_directory}/{file_source.name}", fp)
 
 
 def delete_file(file_source: str | Path):
@@ -67,6 +68,8 @@ def pipeline():
 
     print(f"SCHEDULED BATCH COMPLETED! File count: {count}")
 
+
+### Invocation ###
 
 if __name__=="__main__":
 
