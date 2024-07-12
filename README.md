@@ -30,7 +30,10 @@ Step 1: Create a pipeline in SSIS to:
 > Entire Pipeline
 > ![image](https://github.com/user-attachments/assets/6d860e8b-a67a-47dc-9f63-2a4cb12d5385)
 <br><br> Merge OFAC Table Data Flow
-> ![image](https://github.com/user-attachments/assets/985fd673-af91-4267-8df7-f390ae2d36db)
+> ![image](https://github.com/user-attachments/assets/985fd673-af91-4267-8df7-f390ae2d36db) 
+
+<br>
+Step 2: Deploy the Pipeline in SQL Server Agent
 
 
 
