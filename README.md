@@ -25,13 +25,12 @@ Step 3: Upload downloaded `.csv` files to the FTP Server either manually or base
 ### [Part 2](https://www.youtube.com/watch?v=m2DD-RvT-nA)
 Step 1: Create a pipeline in SSIS to:
 - Download files from FTP Server, 
-- Load it into PostgreSQL, <br><br>
-![image](https://github.com/user-attachments/assets/bea99f67-3b84-4e06-9f00-39a81725c735) 
-<br>
-
-- Merge tables <br> <br>
-![image](https://github.com/user-attachments/assets/2a858797-2048-460d-86d9-9a9c520efc64)
-![image](https://github.com/user-attachments/assets/985fd673-af91-4267-8df7-f390ae2d36db)
+- Load it into PostgreSQL, and
+- Merge the tables in PostgreSQL
+> Entire Pipeline
+> ![image](https://github.com/user-attachments/assets/6d860e8b-a67a-47dc-9f63-2a4cb12d5385)
+<br><br> Merge OFAC Table Data Flow
+> ![image](https://github.com/user-attachments/assets/985fd673-af91-4267-8df7-f390ae2d36db)
 
 
 
