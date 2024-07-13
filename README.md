@@ -33,8 +33,12 @@ Step 1: Create a pipeline in SSIS to:
 > ![image](https://github.com/user-attachments/assets/985fd673-af91-4267-8df7-f390ae2d36db) 
 
 <br>
-Step 2: Deploy the Pipeline in SQL Server Agent <br> <br>
-![image](https://raw.githubusercontent.com/gryAI/End-to-End-Data-Project/main/img/deployment.png)
+Step 2: Deploy the Pipeline in SQL Server Agent and create an automated job <br> <br>
+<blockquote>
+  <img src="https://raw.githubusercontent.com/gryAI/End-to-End-Data-Project/main/img/deployment.png" width="400" />
+</blockquote>
+
+
 
 
 
