@@ -1,6 +1,12 @@
+ipykernel
 pandas
-pyarrow
-requests
 sqlalchemy
 psycopg
+psycopg2
+pyarrow
+rapidfuzz
+fastapi
+uvicorn[standard]
+orjson
+requests
 schedule
