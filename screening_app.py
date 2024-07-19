@@ -120,38 +120,3 @@ async def screen(name: str, threshold: float = .7):
     }
     
     return response
-
-
-# def screen(name: str, threshold: float = .7):
-
-#     cleaned_name = standardize_name(name)
-#     sanctions = get_consolidated_sanctions()
-
-#     # Screen the name and filter matches
-#     sanctions["similarity_score"] = sanctions["sdn_name_cleaned"].apply(
-#         get_ratio, args=(cleaned_name,)
-#     )
-    
-#     try:
-#         sanctions_matched = sanctions[sanctions["similarity_score"] >= threshold]
-#         sanctions_matched.fillna("-", inplace = True)
-
-#         response = {
-#             "Status": "Success!",
-#             "Response": sanctions_matched.to_dict(orient = "records")
-#             }
-
-#         # return sanctions_matched.head()
-#         return response
-    
-
-#     except:
-#         response = {
-#         "Status": "Success!",
-#         "Response": f"No matches found for '{name}'!"
-#         }
-
-#         return response
-    
-# test = screen("ANGLO CARIBBEAN CO LTD")
-# print(test)
