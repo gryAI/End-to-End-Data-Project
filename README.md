@@ -16,7 +16,7 @@ Step 2: Download `.csv` files from the web using Python<br>
 Step 3: Upload downloaded `.csv` files to the FTP Server either manually or based on a schedule <br>
 
 #### Running the app:
-- `wsl`
+- Run `wsl`
 - Manually — `python web_to_ftp_app.py manual`
 - Scheduled — `python web_to_ftp_app.py scheduled` <br> <br>
 > ![carbon](https://github.com/user-attachments/assets/74c1c7bf-b01a-4045-9bc0-9d31e2c12d0b)
